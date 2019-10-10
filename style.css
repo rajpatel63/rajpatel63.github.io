@@ -1,0 +1,75 @@
+h1{
+  text-align: center;
+  color: darkblue;
+  border: 3px solid #1C6EA4;
+}
+body{
+  background-color: lightgrey;
+  text-align: center;
+
+}
+h2{
+   background-image: repeating-linear-gradient(45deg, violet, indigo, blue, green, yellow, orange, red, violet);
+  text-align: center;
+  background-size: 800% 800%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 24px;
+  animation: rainbow 5s ease infinite;
+}
+
+@keyframes rainbow { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 25%}
+    100%{background-position:0% 50%}
+}
+
+.Pic{
+  border-color:3px solid orange;
+}
+footer{
+  text-align: center;
+  color: darkblue;
+  border: 3px solid #1C6EA4;
+}
+
+
+
+.flexbox {
+  display: flex;  
+  flex-flow: row wrap;
+  font-weight: bold;
+  text-align: center;
+  flex-direction: row;
+  align-content: stretch;
+  background-color: lightcoral;
+  flex-wrap: nowrap;
+  
+ 
+}
+.row1{
+display: flex;
+flex-direction: column;
+align-self: stretch;
+width:50%;
+height:100%;
+margin: 20px;
+}
+.row2{
+display: flex;
+flex-direction: column;
+align-self: stretch;
+width:50%;
+height:100%;
+margin: 20px;
+}
+
+	.flex-item-a {
+			background-color: rgb(3, 181, 252);
+			flex-grow: 1;
+      border-style: solid;
+      border-width: 1px;
+      padding: 40px 40px;
+      height: 200px;
+      
+		}
